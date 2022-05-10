@@ -1,0 +1,122 @@
+@font-face {
+  font-family: MadaniArabicFont;
+  src: url(Madani-Arabic-Variable.ttf);
+}
+
+body {
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #f6f5ff;
+}
+.navbar {
+  padding-top: 15px;
+  background-color: #63317d;
+  color: white;
+}
+.rectangle {
+  width: 145px;
+  height: 40px;
+  color: black;
+  background-color: #e5a20c;
+}
+
+footer {
+  background-color: #63317d;
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+footer .conclusionP {
+  opacity: 0.7;
+}
+.footerInput {
+  background-color: transparent;
+  width: 50px;
+}
+.footerButton {
+  display: inline-block;
+  background-color: #63317d;
+}
+.footerImg {
+  float: left;
+}
+.right-inner-addon {
+  position: relative;
+}
+.right-inner-addon input {
+  padding-right: 35px !important;
+}
+.right-inner-addon i {
+  position: absolute;
+  right: 0px;
+  padding: 12px 12px;
+  pointer-events: none;
+}
+.underKaafLogo {
+  font-size: 9px;
+  color: white;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+.carouselText h1 {
+  font-size: 64px;
+  text-align: left;
+}
+.carouselText p {
+  text-align: left;
+}
+
+.ourVision {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: white;
+}
+.ourVision h1,
+h6 {
+  color: #63317d;
+}
+
+.mydiv {
+  width: 100%;
+  height: 750px;
+  background-image: url("assets/images/Group_301.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.ImageDiv {
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
